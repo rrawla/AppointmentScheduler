@@ -1,6 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
+## Getting Started
+### make sure Node version 6.x or above is installed
+### ```clone the repo using git clone ``` [https://github.com/rrawla/AppointmentScheduler.git](https://github.com/rrawla/AppointmentScheduler.git) 
+
+### ``` cd AppointmentScheduler  ```
+### ``` npm install ```
 
 
 ## Available Scripts
@@ -12,7 +18,6 @@ In the project directory, you can run:
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### OR
 ### `npm start`
 
 Runs the app in the development mode.<br>
@@ -34,9 +39,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-See the section about [deployment](#deployment) for more information.
+## For Docker 
+### make sure Docker is installed and running
+In the project directory, you can run:
+### `docker-compose build`
+### `docker-compose up`
 
-### `npm run eject`
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ## Supported Browsers
