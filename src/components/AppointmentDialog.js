@@ -61,7 +61,6 @@ class AppointmentDialog extends Component
                 Phone:''
             }
         }
-        console.log(updatedAppointment);
        
         this.props.updateAppt(updatedAppointment);
         this.reset()
