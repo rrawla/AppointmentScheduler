@@ -14,6 +14,7 @@ class App extends Component {
               <div className="col-xs-12">
                   <div className="page-header">
                      <h3>Appointments</h3>
+                     <p>Please click on a time slot to reserve or update an appointment</p>
                   </div>
                   <div className="row">
                       <AppointmentList/>

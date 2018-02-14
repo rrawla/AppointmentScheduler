@@ -6,7 +6,13 @@ Below you will find some information on how to perform common tasks.<br>
 ## Available Scripts
 
 In the project directory, you can run:
+### `docker-compose build`
+### `docker-compose up`
 
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### OR
 ### `npm start`
 
 Runs the app in the development mode.<br>
@@ -38,4 +44,4 @@ See the section about [deployment](#deployment) for more information.
 By default, the generated project uses the latest version of React.
 
 You can refer [to the React documentation](https://reactjs.org/docs/react-dom.html#browser-support) for more information about supported browsers.
-
+ 
