@@ -1,0 +1,33 @@
+{
+  "name": "appointment-scheduler",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-formhelpers": "git+https://github.com/winmarkltd/BootstrapFormHelpers.git",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-input-mask": "^1.2.2",
+    "react-phone-number-input": "^0.15.2",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint-plugin-react": "^7.6.1",
+    "jest": "^22.2.2",
+    "react-test-renderer": "^16.2.0"
+  }
+}

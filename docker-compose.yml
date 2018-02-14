@@ -1,0 +1,13 @@
+version: "2"
+services:
+  cox-appointment-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cox-appointment-scheduler:1.0.0
+    ports:
+    - 3000:3000  
+    environment:
+      NODE_ENV: development
+      PORT: "3000"
+     
