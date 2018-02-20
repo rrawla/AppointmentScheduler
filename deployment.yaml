@@ -1,0 +1,21 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: autoscheduler
+  labels:
+    app: autoscheduler
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: autoscheduler
+  template:
+    metadata:
+      labels:
+        app: autoscheduler
+    spec:
+      containers:
+      - name: scheduler
+        image: gcr.io/autoscheduler-195814/cox-autoscheduler:1.0
+        ports:
+        - containerPort: 80

@@ -15,6 +15,6 @@ RUN chmod +x /usr/src/app/startup.sh
 
 ENV NODE_ENV development
 
-EXPOSE 5001
+EXPOSE 3000
 
 CMD [ "/usr/src/app/startup.sh"]
